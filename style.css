@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Comfortaa,Didact_Gothic/Comfortaa/Comfortaa-VariableFont_wght.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comfortaa', system-ui, sans-serif;
+    box-sizing: border-box;
+    /* background-image: url('imgs/black-fon2.jpeg'); */
+    background-color: black;
+    color: azure;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.nav-el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    margin-left: 2vw;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello {
+    width: 80%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(2, 157, 196) 40%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-left: 1vw;
+    z-index: 200;
+    padding: 2vw;
+}
+
+.helloText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.helloImg {
+    width: 25vw;
+    position: absolute;
+    z-index: 100;
+    right: 4vw;
+    top: 5vh;
+}
+
+.helloButton {
+    margin-top: 3vh;
+    width: 10vw;
+    height: 5vh;
+    font-size: 0.7vw;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.mainText {
+    margin-top: 2vh;
+    font-size: 4vw;
+    z-index: 200;
+
+}
+
+.subText {
+    margin-top: 2vh;
+    font-size: 1vw;
+    z-index: 200;
+    font-weight: 300;
+}
+
+.progect{
+    margin-top: 10vh;
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+}
+.progectTitleText{
+    font-size: 3vw;
+    z-index: 100;
+}
+.pogectItems{
+    position: relative;
+}
+.Item1{
+    position: relative;
+
+}
+.Item1Img{
+    width: 30vw;
+    height: 30vh;
+    
+}
